@@ -1,0 +1,48 @@
+1. Expected output: 'Hello world!'
+
+"Hello world!"
+
+2. Expected output: "<q>Hello world!</q>
+
+'Hello world!'
+
+3. Expected output: "Hello world!"
+
+<q>Hello world!</q>
+
+4. Expected output: Hello world!
+
+"Hello world!"
+
+5. Expected output: [Hello] world!
+
+Hello world!
+
+6. Starting text: [Hello] world!
+Expected output: { Hello } world!
+
+[Hello] world!
+
+7. Starting text: { Hello } world!
+Expected output: ({ Hello } world!)
+
+({ Hello } world!)
+
+8. Starting text: ({ Hello } world!)
+Expected output: Hello world!
+
+({ Hello } world! )
+
+9. Starting text: Hello world!
+Expected output: <em>Hello</em> world!
+
+Hello world!
+
+10. Starting text: <em>Hello</em> world!
+Expected output: 
+<p class="important">
+  <em>Hello</em> world!
+</p>
+
+<em>Hello</em> world!
+
